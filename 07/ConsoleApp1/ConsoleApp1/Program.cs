@@ -4,28 +4,20 @@
     {
         static void Main(string[] args)
         {
-            object rollNumber = 10;
+            Console.WriteLine("Press any key");
 
-            int firstRollNumber = Convert.ToInt32(rollNumber);
+            //int userInput;
 
-            rollNumber = 123;
+            //do
+            //{
+            //    userInput = Console.Read();
+            //    Console.WriteLine(Convert.ToChar(userInput));
+            //} while (userInput != 65);
 
-            object firstName, lastName;
-            bool isPermanent;
+            var userInput = Console.ReadKey();
 
-            firstName = "Nitish";
-            firstName = 123;
-            firstName = true;
-            
+            Console.WriteLine(userInput.KeyChar);
 
-            isPermanent = true;
-            isPermanent = false;
-
-
-            rollNumber = firstName;
-
-
-            var userInput = Console.ReadLine();
         }
     }
 }
